@@ -1,0 +1,9 @@
+#!/bin/bash
+
+picom -b & # Channge this to your favorite compositor.
+dunst & # Change this to your favorite notifications daemon.
+
+# Theres a slight chance your distribuition does not have IceWMbg on their repos,
+# inside the IceWM bundle. If so, i'd recommend using an alternative, like Feh
+# inside this file. Example:
+# feh --bg-scale /my/wallpaper/path.png * fill
